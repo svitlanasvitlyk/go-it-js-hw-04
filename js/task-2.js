@@ -1,4 +1,4 @@
-function calcAverageCalories(days) {
+function calcAverageCalories(days = []) {
   let total = 0;
 
   for (const day of days) {
